@@ -1,4 +1,4 @@
-#include <Wire.h>
+#include <i2c_t3.h>
 #include "Sparkfun_Serial7SegmentDisplay.h"
 
 Sparkfun_Serial7SegmentDisplay::Sparkfun_Serial7SegmentDisplay() : _i2cAddress(I2C_DEFAULT_ADDRESS)
